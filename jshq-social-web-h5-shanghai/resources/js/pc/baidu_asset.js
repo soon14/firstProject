@@ -1,0 +1,2 @@
+/** 百度离线宝(电话回呼) **/
+document.write('<script type="text/javascript" data-lxb-uid="9746523" data-lxb-gid="173231" src="https://lxbjs.baidu.com/api/asset/api.js?t=' + new Date().getTime() + '" charset="utf-8"></scr' + 'ipt>');

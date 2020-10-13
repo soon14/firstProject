@@ -1,0 +1,101 @@
+html, body, div, ul,li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, button,a{
+    margin: 0;
+    padding: 0;
+    color:#333;
+    font-family:'微软雅黑','宋体';
+    box-sizing: border-box;
+    font-weight:normal;
+    font-size:12px;
+}
+*{
+    -webkit-tap-highlight-color:transparent;
+  	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: rgba(0, 0, 0, 0);
+}
+fieldset, img {
+    border: none;
+    display: block;
+    box-sizing: border-box;
+}
+address, caption, cite, code, dfn, th, var, b, em, i,table,td,tr,th,strong{
+    font-style: normal;
+    font-weight: normal;
+    font-family:'微软雅黑','宋体';
+    color:#333;
+    box-sizing: border-box;
+}
+ul, ol, li,dl {
+    list-style: none;
+}
+a,button{
+	outline: none;
+	text-decoration: none;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+}
+/*遮罩板*/
+.shadow-ban{
+	display: none;
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:rgba(00,00,00,0.5);
+	z-index: 1000;
+}
+/*微信遮罩板*/
+.shadow-ban-wx{
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:rgba(00,00,00,0.5);
+	z-index: 1000;
+}
+.shadow-ban-wx img{
+	width:100%;
+}
+#newBridge #nb_icon_wrap{
+	width: 0 !important;
+	height: 0 !important;
+	/*display:none!important;*/
+}
+img[width="20"]{
+	display: none;
+}
+/*mescroll初始化*/
+.swiper-container{
+	overflow: visible;
+}
+.mescroll{
+	position:absolute;
+	top: 5rem;
+	bottom: 0;
+	height: auto;
+}
+/*加载动画*/
+.qqxb-mobile-loding{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1000000000;
+	height:100%;
+	width:100%;
+	justify-content:center;
+	display: flex;
+	align-items:center;
+	
+}
+.qqxb-mobile-loding img{
+	width:7rem;
+}
+/*回顶按钮*/
+.mescroll-totop{
+	bottom:6rem;
+	border-radius: inherit;
+}
+
+.mobile_umeng{
+	display: none;
+}

@@ -1,0 +1,44 @@
+html, body, div, ul,li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, button,a{
+    margin: 0;
+    padding: 0;
+    color:#333;
+    font:14px/20px '微软雅黑','宋体';
+    box-sizing: border-box;
+    font-weight:normal;
+}
+a{-webkit-tap-highlight-color:transparent; }
+p{
+    word-break:break-all;
+}
+fieldset, img {
+    border: none;
+    display: block;
+    box-sizing: border-box;
+}
+address, caption, cite, code, dfn, th, var, b, em, i,table,td,tr,th,strong{
+    font-style: normal;
+    font-weight: normal;
+    font:14px/20px '微软雅黑','宋体';
+    color:#333;
+    box-sizing: border-box;
+}
+ul, ol, li,dl {
+    list-style: none;
+}
+
+a,button{
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+}
+input, select {
+    height: 45px;
+    border: 1px solid #d5d5d5;
+    border-radius: 2px;
+    padding: 0 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+.youmengclass{
+	display: none;
+}

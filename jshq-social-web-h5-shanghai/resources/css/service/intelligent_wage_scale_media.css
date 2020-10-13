@@ -1,0 +1,973 @@
+@media (max-width: 1500px) {
+    /*  新版官网人事代理开始 */
+    .pa-top{
+        height: 544px;
+    }
+    .pa-banner{
+        margin: 98px auto 0;
+        width: 982px;
+    }
+    .pa-banner h3{
+        font-size: 65px;
+        line-height: 51px;
+        padding-top: 20px;
+        letter-spacing: 8px;
+    }
+    .pa-banner p{
+        line-height: 41px;
+        font-size: 23px;
+        margin-top: 37px;
+    }
+    .pa-banner-a2{
+        width: 180px;
+        height: 41px;
+        font-size: 16px;
+        line-height: 41px;
+        margin-top: 73px;
+    }
+    .pa-banner-div{
+        height: 340px;
+    }
+    .pa-head{
+        height: 584px;
+        padding-top: 80px;
+    }
+    .pa-head h3{
+        font-size: 29px;
+        line-height: 41px;
+    }
+    .pa-head-div{
+        width: 969px;
+        height: 291px;
+        margin: 79px auto 0;
+    }
+    .pa-head-cont{
+        width: 323px;
+        height: 291px;
+    }
+    .pa-head-cont h4{
+        font-size: 20px;
+        line-height: 41px;
+    }
+    .pa-head-cont-img{
+        height: 103px;
+    }
+    .pa-head-cont-img1{
+        width: 92px;
+        height: 75px;
+        margin: 8px auto 0;
+    }
+    .pa-head-cont-p1{
+        font-size: 15px;
+        line-height: 26px;
+        width: 270px;
+        height: 124px;
+        margin: 14px auto 0;
+    }
+    .pa-head-cont-img2{
+        width: 86px;
+        height: 66px;
+        margin: 8px auto 0;
+    }
+    .pa-head-cont-p2{
+        font-size: 15px;
+        line-height: 26px;
+        width: 255px;
+        height: 103px;
+        margin: 14px auto 0;
+    }
+    .pa-head-cont-img3{
+        width: 79px;
+        height: 73px;
+        margin: 8px auto 0;
+    }
+    .pa-head-cont-p3{
+        font-size: 15px;
+        line-height: 26px;
+        width: 255px;
+        height: 108px;
+        margin: 14px auto 0;
+    }
+    .pa-mid{
+        height: 676px;
+        padding-top: 77px;
+    }
+    .pa-mid h3{
+        font-size: 29px;
+        line-height: 41px;
+    }
+    .pa-mid-cont{
+        width: 1019px;
+        height: 425px;
+        margin: 54px auto 0;
+    }
+    .pa-mid-cont h4{
+        font-size: 20px;
+        line-height: 41px;
+    }
+    .pa-mid-cont-left{
+        width: 718px;
+        height: 425px;
+        margin-left: 19px;
+        margin-right: 19px;
+        padding-top: 26px;
+    }
+    .pa-mid-cont-left-child{
+        height: 295px;
+        margin-top: 22px;
+    }
+    .pa-mid-cont-left-yuan{
+        width: 4px;
+        height: 268px;
+        margin-left: 47px;
+    }
+    .pa-mid-cont-left-yuan li{
+        width: 4px;
+        height: 4px;
+        margin-top: 9px;
+        margin-bottom: 31px;
+    }
+    .pa-mid-cont-left-ul{
+        width: 128px;
+        height: 277px;
+        margin-left: 11px;
+    }
+    .pa-mid-cont-left-ul li{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .pa-mid-cont-left-yuan2{
+        width: 4px;
+        height: 268px;
+        margin-left: 74px;
+    }
+    .pa-mid-cont-left-yuan2 li{
+        width: 4px;
+        height: 4px;
+        margin-top: 9px;
+        margin-bottom: 31px;
+    }
+    .pa-mid-cont-left-ul2{
+        width: 176px;
+        height: 277px;
+        margin-left: 11px;
+    }
+    .pa-mid-cont-left-ul2 li{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .pa-mid-cont-left-yuan3{
+        width: 4px;
+        height: 268px;
+        margin-left: 72px;
+    }
+    .pa-mid-cont-left-yuan3 li{
+        width: 4px;
+        height: 4px;
+        margin-top: 9px;
+        margin-bottom: 31px;
+    }
+    .pa-mid-cont-left-ul3{
+        width: 160px;
+        height: 277px;
+        margin-left: 11px;
+    }
+    .pa-mid-cont-left-ul3 li{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .pa-mid-cont-right{
+        width: 225px;
+        height: 425px;
+        margin-left: 19px;
+        margin-right: 19px;
+        padding-top: 25px;
+    }
+    .pa-mid-cont-right-child{
+        height: 295px;
+        margin-top: 22px;
+    }
+    .pa-mid-cont-right-yuan{
+        width: 4px;
+        height: 268px;
+        margin-left: 57px;
+    }
+    .pa-mid-cont-right-yuan li{
+        width: 4px;
+        height: 4px;
+        border-radius: 74px;
+        margin-top: 9px;
+        margin-bottom: 31px;
+    }
+    .pa-mid-cont-right-ul{
+        width: 118px;
+        height: 277px;
+        margin-left: 11px;
+    }
+    .pa-mid-cont-right-ul li{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .pa-service{
+        height: 616px;
+        padding-top: 92px;
+    }
+    .pa-service h3{
+        font-size: 29px;
+        line-height: 29px;
+    }
+    .pa-service span{
+        padding-right: 8px;
+    }
+    .pa-service-content{
+        width: 1012px;
+        height: 255px;
+        margin: 132px auto 0;
+    }
+    .pa-service-content-child{
+        width: 231px;
+        height: 255px;
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+    .pa-service-content-child img{
+        width: 90px;
+        height: 90px;
+        top: -49px;
+        left: 74px;
+    }
+    .pa-service-content-child h4{
+        font-size: 18px;
+        margin-top: 79px;
+    }
+    .pa-service-content-child p{
+        font-size: 15px;
+        line-height: 29px;
+        margin-top: 25px;
+        margin-left: 27px;
+    }
+    .pa-service-btn{
+        width: 453px;
+        height: 41px;
+        margin: 89px auto 0;
+    }
+    .pa-service-btn1{
+        width: 180px;
+        height: 41px;
+        font-size: 16px;
+        line-height: 41px;
+    }
+    .pa-service-btn2{
+        width: 180px;
+        height: 41px;
+        font-size: 16px;
+        line-height: 41px;
+    }
+    /*  新版官网人事代理结束 */
+
+    /*  新版官网人力资源开始*/
+    .me-top{
+        height: 761px;
+    }
+    .me-banner{
+        margin: 98px auto 0;
+        width: 982px;
+    }
+    .me-banner h3{
+        font-size: 65px;
+        line-height: 65px;
+        margin-bottom: 32px;
+    }
+    .me-banner p {
+        font-size: 23px;
+        line-height: 46px;
+        margin-bottom: 65px;
+    }
+    .me-head{
+        height: 954px;
+    }
+    .me-head-div{
+        width: 982px;
+        height: 573px;
+        padding-top: 65px;
+        margin: -209px auto 0;
+    }
+    .me-head-div h3{
+        width: 385px;
+        height: 29px;
+        font-size: 29px;
+    }
+    .me-head-cont{
+        height: 344px;
+        width: 982px;
+        margin-top: 74px;
+    }
+    .me-head-cont-child{
+        width: 180px;
+        height: 131px;
+        margin-left: 105px;
+        margin-right: 16px;
+        margin-bottom: 86px;
+    }
+    .me-head-cont-child img{
+        top: -4px;
+        left: -41px;
+    }
+    .me-head-cont-child h4{
+        font-size: 20px;
+    }
+    .me-head-cont-child p{
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 41px;
+    }
+    .me-head-cont-img1{
+        width: 28px;
+        height: 25px;
+    }
+    .me-head-cont-img2{
+        width: 21px;
+        height: 25px;
+    }
+    .me-head-cont-img3{
+        width: 20px;
+        height: 27px;
+    }
+    .me-head-cont-img4{
+        width: 19px;
+        height: 31px;
+    }
+    .me-head-cont-img5{
+        width: 29px;
+        height: 25px;
+    }
+    .me-head-cont-img6{
+        width: 28px;
+        height: 28px;
+    }
+    .me-head-h3{
+        width: 295px;
+        height: 29px;
+        font-size: 29px;
+        line-height: 29px;
+        margin: 85px auto 0;
+    }
+    .me-mid{
+        height: 360px;
+    }
+    .me-mid-cont{
+        width: 286px;
+        height: 430px;
+        margin-right: 26px;
+        margin-left: 26px;
+        margin-top: -181px;
+    }
+    .me-mid-cont-img1{
+        width: 124px;
+        height: 120px;
+        margin-top: 52px;
+        margin-left: 82px;
+    }
+    .me-mid-cont-bg{
+        width: 206px;
+        height: 19px;
+        margin: 53px auto 0;
+    }
+    .me-mid-cont-bg p{
+        font-size: 20px;
+        line-height: 19px;
+    }
+    .me-mid-cont1{
+        width: 172px;
+        height: 87px;
+        margin: 27px auto 0;
+    }
+    .me-mid-cont1 p{
+        font-size: 15px;
+        line-height: 36px;
+    }
+    .me-mid-cont2{
+        width: 166px;
+        height: 51px;
+        margin: 27px auto 0;
+    }
+    .me-mid-cont2 p{
+        font-size: 15px;
+        line-height: 36px;
+    }
+    .me-mid-cont3{
+        width: 75px;
+        height: 87px;
+        margin: 27px auto 0;
+    }
+    .me-mid-cont3 p{
+        font-size: 15px;
+        line-height: 36px;
+    }
+    .me-way{
+        height: 619px;
+        padding-top: 83px;
+    }
+    .me-way h3{
+        font-size: 29px;
+        line-height: 29px;
+    }
+    .me-way-cont{
+        height: 286px;
+        margin-top: 102px;
+    }
+    .me-way-cont-child{
+        height: 286px;
+        width: 196px;
+        margin-left: 41px;
+        margin-right: 41px;
+    }
+    .me-way-cont-child h4{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .me-way-cont-child p{
+        font-size: 15px;
+        line-height: 29px;
+        margin: 27px auto 0;
+        width: 196px;
+        height: 118px;
+    }
+    .me-way-cont-child-img{
+        height: 82px;
+    }
+    .me-way-cont-child-img1{
+        width: 69px;
+        height: 78px;
+    }
+    .me-way-cont-child-img2{
+        width: 79px;
+        height: 70px;
+    }
+    .me-way-cont-child-img3{
+        width: 74px;
+        height: 76px;
+    }
+    .me-way-cont-child-img4{
+        width: 64px;
+        height: 77px;
+    }
+    .me-way-last{
+        width: 180px;
+        height: 39px;
+        margin: 78px auto 0;
+        font-size: 15px;
+        line-height: 39px;
+    }
+    .me-link-box{
+        height: 524px;
+    }
+    /*  新版官网人力资源结束*/
+
+    /*  新版官网灵活用工开始 */
+    .big-febox-div{
+        height: 826px;
+    }
+    .fe-top{
+        height: 799px;
+    }
+    .fe-banner{
+        margin: 98px auto 0;
+        width: 982px;
+    }
+    .fe-banner h3{
+        font-size: 65px;
+        line-height: 52px;
+        padding-top: 20px;
+    }
+    .fe-banner p{
+        line-height: 41px;
+        font-size: 23px;
+        margin-top: 37px;
+    }
+    .fe-banner-div{
+        height: 303px;
+    }
+    .fe-banner-a{
+        width: 180px;
+        height: 39px;
+        font-size: 16px;
+        line-height: 39px;
+        margin-top: 65px;
+    }
+    .fe-question{
+        width: 884px;
+        height: 266px;
+        margin: 65px auto 0;
+        padding-top: 65px;
+    }
+    .fe-question h3{
+        font-size: 29px;
+        line-height: 33px;
+    }
+    .fe-question-div{
+        height: 46px;
+        margin-top: 58px;
+    }
+    .fe-question-cont img{
+        width: 22px;
+        height: 25px;
+        margin-right: 16px;
+    }
+    .fe-question-cont p{
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .fe-service{
+        height: 577px;
+        padding-top: 65px;
+    }
+    .fe-service h3{
+        font-size: 29px;
+        line-height: 33px;
+    }
+    .fe-service-div{
+        height: 295px;
+        margin-top: 84px;
+    }
+    .fe-service-div-cont{
+        height: 295px;
+        width: 254px;
+        margin-left: 31px;
+        margin-right: 31px;
+    }
+    .fe-service-div-cont p{
+        font-size: 20px;
+        line-height: 33px;
+    }
+    .fe-service-img{
+        height: 199px;
+    }
+    .fe-service-img1{
+        width: 101px;
+        height: 81px;
+        margin-top: 74px;
+        margin-left: 79px;
+    }
+    .fe-service-img2{
+        width: 83px;
+        height: 84px;
+        margin-top: 71px;
+        margin-left: 86px;
+    }
+    .fe-service-img3{
+        width: 106px;
+        height: 83px;
+        margin-top: 71px;
+        margin-left: 74px;
+    }
+    .fe-advend{
+        height: 954px;
+        padding-top: 76px;
+    }
+    .fe-advend-btn-div{
+        width: 229px;
+        height: 49px;
+    }
+    .fe-advend h3{
+        font-size: 29px;
+        line-height: 33px;
+    }
+    .fe-advend-div{
+        width: 950px;
+        margin: 16px auto 0;
+    }
+    .fe-advend-cont{
+        width: 409px;
+        height: 261px;
+        margin-top: 98px;
+        margin-right: 33px;
+        margin-left: 33px;
+    }
+    .fe-advend-cont img{
+        width: 75px;
+        height: 75px;
+        margin: -37px auto 0;
+    }
+    .fe-advend-cont h4{
+        font-size: 20px;
+        margin-top: 41px;
+    }
+    .fe-advend-cont p{
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 33px;
+        margin-left: 87px;
+    }
+    .fe-advend-btn{
+        width: 229px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 49px;
+    }
+    .fe-link-box{
+        height: 524px;
+    }
+
+
+    /*  新版官网灵活用工结束 */
+
+    /*  新版官网福利保险开始 */
+    .ci-top{
+        height: 663px;
+        padding-bottom: 178px;
+    }
+    .ci-banner{
+        margin: 98px auto 0;
+        width: 982px;
+    }
+    .ci-banner h3{
+        font-size: 65px;
+        line-height: 65px;
+        margin-bottom: 41px;
+    }
+    .ci-banner p{
+        font-size: 23px;
+        line-height: 46px;
+        margin-bottom: 43px;
+    }
+    .ci-banner-div{
+        height: 286px;
+    }
+    .ci-banner-btn{
+        line-height: 41px;
+        height: 41px;
+        width: 180px;
+        font-size: 16px;
+    }
+    .ci-head{
+        height: 559px;
+    }
+    .ci-head-div{
+        width: 982px;
+    }
+    .ci-head-cont{
+        width: 206px;
+    }
+    .ci-head-cont img{
+        width: 106px;
+        height: 106px;
+        margin: 47px auto 0;
+    }
+    .ci-head-cont h4{
+        font-size: 20px;
+        line-height: 41px;
+        margin-top: 31px;
+    }
+    .ci-head-cont p{
+        font-size: 15px;
+        line-height: 29px;
+        margin-top: 22px;
+    }
+    .ci-head-cont p:last-child{
+        margin-top: 8px;
+    }
+    .ci-chatWay{
+        height: 449px;
+        min-width: 982px;
+        padding: 82px 0 98px;
+    }
+    .ci-chatWay h3{
+        font-size: 29px;
+        line-height: 29px;
+        margin-bottom: 25px;
+    }
+    .ci-chatWay-content{
+        width: 756px;
+        height: 159px;
+        margin: 79px auto 0;
+    }
+    .ci-chatWay-content img{
+        width: 756px;
+        height: 159px;
+    }
+    .ci-chatWay-content div p{
+        width: 270px;
+        height: 147px;
+        padding: 20px 22px 0;
+        font-size: 16px;
+        line-height: 33px;
+        margin-left: 41px;
+        margin-top: -22px;
+    }
+    .ci-chat{
+        margin: -20px auto 0;
+    }
+    .ci-chat a{
+        width: 164px;
+        height: 41px;
+        line-height: 41px;
+        font-size: 16px;
+    }
+    .ci-foot{
+        width: 982px;
+        margin: 96px auto 0;
+    }
+    .ci-foot-top div{
+        margin-top: 39px;
+        margin-left: 102px;
+    }
+    .ci-foot-top div h3{
+        font-size: 29px;
+        line-height: 29px;
+        margin-bottom: 25px;
+    }
+    .ci-foot-top div p{
+        font-size: 16px;
+        line-height: 39px;
+    }
+    .ci-foot-bottom{
+        margin-top: 74px;
+    }
+    .ci-foot-bottomL{
+        margin-top: 13px;
+    }
+    .ci-foot-bottomL h3{
+        font-size: 29px;
+        line-height: 29px;
+        margin-bottom: 14px;
+    }
+    .ci-foot-bottomL p{
+        font-size: 16px;
+        line-height: 39px;
+    }
+    .ci-foot-bottomR{
+        width: 540px;
+        margin-left: 152px;
+    }
+    .ci-foot-bottomR img{
+        margin-right: 33px;
+        margin-bottom: 33px;
+        width: 229px;
+        height: 98px;
+    }
+    /*  新版官网福利保险结束 */
+
+    /*  新版官网其他服务开始*/
+    .ict-top{
+        height: 591px;
+        padding-bottom: 192px;
+    }
+    .ict-banner{
+        margin: 98px auto 0;
+        width: 982px;
+    }
+    .ict-banner h3{
+        font-size: 65px;
+        line-height: 52px;
+        padding-top: 20px;
+    }
+    .ict-banner p{
+        line-height: 41px;
+        font-size: 23px;
+        margin-top: 37px;
+    }
+    .ict-banner-div{
+        height: 303px;
+    }
+    .ict-banner-a{
+        width: 180px;
+        height: 39px;
+        font-size: 16px;
+        line-height: 39px;
+        margin-top: 68px;
+    }
+    .ict-service{
+        height: 1209px;
+        margin: -98px auto 0;
+        padding-top: 114px;
+    }
+    .ict-service h3{
+        font-size: 29px;
+        letter-spacing: 2px;
+    }
+    .ict-service-cont-up{
+        width: 996px;
+        height: 342px;
+        margin: 103px auto 0;
+    }
+    .ict-service-cont-up div{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .ict-service-div{
+        width: 229px;
+        height: 342px;
+    }
+    .ict-service-div img{
+        width: 97px;
+        height: 85px;
+    }
+    .ict-service-div h4{
+        font-size: 20px;
+        margin-top: 57px;
+    }
+    .ict-service-div p{
+        font-size: 15px;
+        line-height: 26px;
+        width: 165px;
+        margin: 34px auto 0;
+    }
+    .ict-service-cont-down{
+        width: 810px;
+        height: 342px;
+        margin: 92px auto 0;
+    }
+    .ict-service-cont-down div{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .ict-reason{
+        height: 525px;
+        padding-top: 24px;
+    }
+    .ict-reason h3{
+        font-size: 29px;
+        line-height: 33px;
+        letter-spacing: 8px;
+    }
+    .ict-reason-div{
+        width: 1093px;
+        height: 245px;
+        margin: 88px auto 0;
+    }
+    .ict-reason-cont{
+        height: 245px;
+        width: 164px;
+        margin-right: 54px;
+        margin-left: 54px;
+    }
+    .ict-reason-cont img{
+        width: 128px;
+        height: 96px;
+    }
+    .ict-reason-cont h4{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .ict-reason-cont p{
+        font-size: 15px;
+        line-height: 25px;
+        width: 162px;
+        margin: 29px auto 0;
+        padding-left: 10px;
+    }
+    .ict-reason-btn-div{
+        height: 49px;
+        width: 229px;
+        margin: 0 auto;
+    }
+    .ict-reason-btn{
+        width: 229px;
+        height: 49px;
+        font-size: 20px;
+        line-height: 49px;
+    }
+    .ict-link-box{
+        height: 524px;
+    }
+    /*  新版官网其他服务结束*/
+
+    /* 新版官网nav开始 */
+    .qqxb-logo-commercial{
+        width:982px;
+        height:74px;
+    }
+    .qqxb-logo-commercial ul li{
+        margin-right:43px;
+        line-height:74px;
+    }
+    .qqxb-logo-commercial ul li h2{
+        line-height: 70px;
+    }
+    .qqxb-logoimg-commercial{
+        width: 116px;
+        height: 34px;
+    }
+    .qqxb-logoimg-commercial img{
+        width: 116px;
+        height: 34px;
+        margin-top: 21px;
+    }
+    .qqxb-logo-yw-ul a{
+        font-size: 13px;
+    }
+
+    /* 新版官网nav结束 */
+
+    /* 合作伙伴 客户开始 */
+    .index-partnerbox{
+        width:1000px;
+    }
+    .index-h1title-new{
+        font-size: 29px;
+        line-height: 29px;
+        padding-top: 98px;
+    }
+    .index-partnerimg{
+        padding-top:49px;
+    }
+    .index-partnerimg div{
+        width: 1px;
+        height: 29px;
+        margin-top: 14px;
+        margin-right: 14px;
+        margin-left: 15px;
+    }
+    .index-partnerimg p{
+        width:139px;
+        height: 52px;
+        margin-bottom:26px;
+    }
+    .pa-link-box{
+        height: 524px;
+    }
+    .tjsd-link{
+        width: 982px;
+        padding: 82px 0;
+    }
+    .tjsd-link h3{
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 16px;
+    }
+    .tjsd-link p{
+        font-size: 20px;
+    }
+    .tjsd-link button{
+        width: 196px;
+        height: 36px;
+        font-size: 18px;
+        margin-top: 37px;
+    }
+    .tjsd-link-input{
+        width: 515px;
+        margin: 49px auto 33px;
+    }
+    .tjsd-link-input div{
+        margin-bottom: 23px;
+    }
+    .tjsd-link-input div input,.tjsd-link-input div select{
+        width: 245px;
+        font-size: 15px;
+    }
+    .companySize{
+        /*去掉默认的下拉三角*/
+        appearance:none;
+        -moz-appearance:none;
+        -webkit-appearance:none;
+        /*添加下拉三角图标*/
+        background: url("/resources/images/pc/routineimg/ci14.png") no-repeat transparent;
+        background-position: 213px 16px;
+    }
+
+    /* 合作伙伴 客户结束 */
+    /*天津落户开始*/
+
+    /*天津落户结束*/
+}

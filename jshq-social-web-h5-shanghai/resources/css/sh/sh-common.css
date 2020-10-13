@@ -1,0 +1,88 @@
+/* 通用顶部导航 */
+.sh-index-ty-nav{
+	width: 100%;
+	height: 4.4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 2;
+}
+.sh-index-ty-btn{
+	width: 2rem;
+	height: 2rem;
+	margin-left: 1.5rem;
+}
+.sh-index-ty-btn img{
+	display: block;
+	width: 2rem;
+	height: 2rem;
+}
+.sh-index-ty-logo{
+	width: 14.5rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.sh-index-ty-logo a{
+	padding-top: 0.4rem;
+}
+.sh-index-ty-logo a>img{
+	width: 8.7rem;
+	height: 2.4rem;
+}
+.sh-index-ty-lxkf{
+	width: 2rem;
+	height: 2rem;
+	margin-right: 1.5rem;
+}
+.sh-index-ty-lxkf>img{
+	display: block;
+	width: 2rem;
+	height: 2rem;
+}
+.sh-nav-change{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.sh-nav-change span{
+	color: #FFFFFF;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	margin-right: 0.4rem;
+}
+.sh-nav-change img{
+	width: 1.3rem;
+	height: 0.8rem;
+}
+.sh-nav-change-qg{
+	display: none;
+	position: absolute;
+	right: -5rem;
+	top: 4rem;
+	background-color: #ffffff;
+	width: 24rem;
+	box-shadow: 0px 2px 16px 0px rgba(15, 13, 13, 0.44), 0px 1px 2px 0px rgba(0, 0, 0, 0.43);
+	z-index: 9999;
+}
+.sh-nav-change-qg a{
+	display: block;
+	width: 8rem;
+	height: 4rem;
+	text-align: center;
+	color: #666666;
+	font-size: 1.4rem;
+	line-height: 4rem;
+	float: left;
+	padding-top: 0;
+}
+.other-city{
+	width: 13rem!important;
+}
+/* 通用顶部导航 */
+.ty-logo a{
+	padding-top: 0.4rem;
+}

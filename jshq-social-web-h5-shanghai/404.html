@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title>404-您访问的页面找不到了！！！</title>
+    <meta name="keywords" content="员工社保,社保办理,社保托管,社保开户,异地社保,社保代缴,薪酬优化,代发工资,合理避税,五险一金,人事代理" />
+    <meta name="description" content="北京金色华勤数据服务有限公司是致力于通过互联网为中国众多大中小微企业、自由职业者提供优质便捷高效的人事服务的创新企业。以“重塑人事服务模式，帮助更多用户享有健全的社会保障，提高参保率，利国利民”作为企业使命。是西藏华勤互联人力资源股份有限公司全资子公司。" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/common/swiper.min.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="author" content="qqxb">
+    <meta name="browsermode" content="application">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="x5-page-mode" content="app">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,user-scalable=no,minimal-ui">
+    <meta name="baidu-hm-key" content="ad64a5f0bb6fdedc85b8e48137e31544">
+    <link rel="stylesheet" type="text/css" href="/resources/css/common/register.css?v=119"/>
+    <link rel="stylesheet" type="text/css" href="/resources/css/common/qqxb_mobile.css?v=122"/>
+    <script type="text/javascript" src="/resources/js/util/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="four-zero-four-h5">
+        <img src="/resources/images/common/h5-default.png" title="404" alt="404">
+        <div class="daojishi-box-h5"><span class="last-time-h5">3</span><span>s</span>后自动跳转，点击立即跳转</div>
+        <div class="go-index-h5"><a href="/" title="点击前往">返回首页</a></div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(window).load(function(){
+        var last_time = 3;
+        var timer_h5 = setInterval(function () {
+            last_time--
+            $('.last-time-h5').text(last_time)
+            if (last_time <= 0) {
+                clearInterval(timer_h5)
+                setTimeout(function () {
+                    window.location.href = '/'
+                }, 1000)
+            }
+        }, 1000)
+    })
+</script>
+<style></style>
+</html>

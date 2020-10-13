@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.pagination font, .pagination a {
+	position: relative;
+	float: left;
+	padding: 6px 12px;
+	margin-left: -1px;
+	line-height: 1.42857143;
+	color: #22bd7a;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.pagination .page-active a {
+	color: #fff;
+	background-color: #22bd7a;
+	border-color: #22bd7a;
+}
+
+.pagination .page-disabled font {
+	color: #777;
+	cursor: not-allowed;
+	background-color: #fff;
+	border-color: #ddd;
+}

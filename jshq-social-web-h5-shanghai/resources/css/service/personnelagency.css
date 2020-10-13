@@ -1,0 +1,977 @@
+body{
+	color: #666;
+}
+.PersonnelAgency-banner{
+	/*overflow: hidden;*/
+}
+.PersonnelAgency-banner img{
+	width: 100%;
+}
+.PersonnelAgency-company-worry-box{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	background: #f8f8f8;
+	padding-top: 75px;
+	padding-bottom: 50px;
+}
+.PersonnelAgency-company-worry-h2-b{
+		height: 3px;
+	width: 53px;
+	margin: 10px auto;
+	background: #368bff;
+}
+.PersonnelAgency-company-worry-h2{
+	font-size: 24px;
+	color: #333;
+	font-weight: 500;
+	text-align: center;
+	width: 100%;
+}
+.PersonnelAgency-company-worry-box-ul{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 60px;
+	padding-bottom: 20px;
+}
+.PersonnelAgency-company-worry-box-ul>li{
+	display: inline-block;
+	width: 300px;
+	float: left;
+	background: #FFFFFF;
+	padding-top: 58px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 8px #ddd;
+	padding-bottom: 20px;
+}
+.PersonnelAgency-company-worry-box-ul>li b{
+	font-size: 20px;
+	display: block;
+	margin: 40px 0 24px 0;
+}
+.PersonnelAgency-company-worry-box-ul>li:nth-child(2){
+	margin: 0 50px;
+}
+.PersonnelAgency-company-worry-box-ul>li img{
+	display: block;
+	margin: 0 auto;
+}
+.PersonnelAgency-company-worry-box-ul>li ul{
+	text-align: justify;
+	padding: 0 24px 0 30px;
+}
+.PersonnelAgency-company-worry-box-ul>li ul li{
+	list-style:none ;
+	font-size: 14px;
+	line-height: 24px;
+	position: relative;
+}
+.PersonnelAgency-company-worry-box-ul>li ul li:before{
+	content: '';
+	position: absolute;
+    left: -10px;
+    top: 10px;
+	width: 5px;
+	height: 5px;	
+	border-radius: 50%;
+	background:#666;
+}
+.PersonnelAgency-PersonnelAgency-section b{
+	display: block;
+	margin: 20px auto 0;
+	font-size: 18px;
+}
+.PersonnelAgency-PersonnelAgency-section{
+	width: 230px;
+	float: left;
+	margin-right: 26px;
+	border-radius: 10px;
+	border: 1px solid #ffffff;
+	overflow: hidden;
+	/*padding: 20px;*/
+}
+.PersonnelAgency-PersonnelAgency-section:nth-child(4){
+	margin-right: 0;
+}
+.PersonnelAgency-PersonnelAgency-section img{
+	width: auto;
+	height: 100px;
+	margin-top: 29px;
+	/*border-radius:20px ;*/
+}
+.PersonnelAgency-PersonnelAgency-section i{
+	display: inline-block;
+	width: 110px;
+	height: 110px;
+	margin-bottom: -110px;
+	border-radius: 50%;
+	background: #66cb9f;
+	/*box-shadow: 5px 5px 8px #ddd;*/
+	/*visibility: hidden;*/
+}
+.PersonnelAgency-PersonnelAgency-section div{
+	width: 230px;
+	margin-left: -1px;
+	height: 137px;
+	margin-top: -29px;
+}
+/*.PersonnelAgency-PersonnelAgency-section:hover img{
+	box-shadow: none;
+	border-radius: 20px;
+	border: none;
+}*/
+/*.PersonnelAgency-PersonnelAgency-section:hover i{
+	visibility:inherit;
+}*/
+.PersonnelAgency-PersonnelAgency-section:hover{
+	border: 1px solid #66cb9f;
+}
+.PersonnelAgency-PersonnelAgency-section:hover img{
+	box-shadow: none;
+}
+.PersonnelAgency-PersonnelAgency-section:hover div{
+	background: #66cb9f;
+}
+.PersonnelAgency-PersonnelAgency-section:nth-of-type(2) i,.PersonnelAgency-PersonnelAgency-section:nth-of-type(4) i{
+	background: #78b9ef;
+}
+.PersonnelAgency-PersonnelAgency-section:nth-of-type(2):hover div,.PersonnelAgency-PersonnelAgency-section:nth-of-type(4):hover div{
+	background: #78b9ef;
+}
+.PersonnelAgency-PersonnelAgency-section:nth-of-type(2):hover,.PersonnelAgency-PersonnelAgency-section:nth-of-type(4):hover{
+	border: 1px solid #78b9ef;
+}
+.PersonnelAgency-PersonnelAgency-section p{
+	text-align: justify;
+	font-size: 14px;
+	padding: 20px;
+	margin-top: 0;
+}
+.PersonnelAgency-pay{
+	background: url(/resources/images/service/agent/rswb_03.jpg);
+	background-size: 100% 100%;
+	padding-bottom: 50px;
+}
+.PersonnelAgency-pay img{
+	width: 835px;
+	margin-top: 60px;
+}
+.PersonnelAgency-partner{
+	background: url(../img/rswb_05.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+
+
+
+.SocialSecurityAgency-task-list{
+	padding-bottom: 10px;
+	border-bottom: 3px solid #3dcb9d;
+}
+.SocialSecurityAgency-task-list>li{
+	padding-top: 40px;
+}
+.SocialSecurityAgency-task-list>li ul{
+	padding: 0 27px 0 27px;
+}
+.SocialSecurityAgency-task-list>li {
+    box-shadow: none;
+    width: 320px;
+}
+.SocialSecurityAgency-task-list {
+    width: 960px;
+}
+.SocialSecurityAgency-task-list>li:nth-child(2) {
+	/*width: 320px;*/
+    margin: 0;
+    padding: 0;
+    padding-top: 28px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border-left: 1px dashed #e3dfdf;
+    border-right: 1px dashed #e3dfdf;
+}
+.SocialSecurityAgency-task-list li li:before{
+	display: none;
+}
+.SocialSecurityAgency-task-list li ul li{
+	margin: 25px auto;
+	width: 196px;
+	height: 41px;
+	text-align: center;
+	line-height: 41px;
+	border-radius: 41px;
+	box-shadow: 0 0 12px -2px #3dcb9d;
+	font-size: 18px
+}
+.SocialSecurityAgency-company{
+	margin-top: 50px;
+}
+.SocialSecurityAgency-company-section{
+	width: 200px;
+	height: 314px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+.SocialSecurityAgency-company-section img{
+	margin-top: 80px;
+}
+.SocialSecurityAgency-company-section p{
+	margin-top: 25px;
+	color: #000000;
+	font-size: 18px
+}
+.SocialSecurityAgency-company-section div{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background:#3dcb9d;
+	padding: 55px 25px 0 35px;
+}
+.SocialSecurityAgency-company-section div li{
+	list-style:initial;
+	color: #ffffff;
+	text-align: justify;
+}
+.SocialSecurityAgency-company-section div a{
+	width: 120px;
+	height: 27px;
+	font-size: 14px;
+	line-height: 26px;
+	background: #ffffff;
+	color:#3dcb9d;
+	font-weight: 600;
+}
+.SocialSecurityAgency-advantage{
+	background: #3ece9d;
+	margin-top: 50px;
+	padding-bottom: 70px;
+}
+.SocialSecurityAgency-advantage-sectionbox{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.SocialSecurityAgency-advantage-section{
+	float: left;
+	width: 294px;
+	margin-right: 39px;
+	text-align: center;
+}
+.SocialSecurityAgency-advantage-section>p{
+	color: #ffffff;
+	font-size: 20px;
+	margin-top: 18px;
+	margin-bottom: 23px;
+}
+.SocialSecurityAgency-advantage-section:nth-of-type(3){
+	margin-right:0 ;
+}
+.SocialSecurityAgency-advantage-section-text{	
+	background: #ffffff;
+	border-radius: 10px;
+	padding-bottom: 15px;
+	position: relative;
+}
+.SocialSecurityAgency-advantage-section-text:before{
+	content: '';
+	position: absolute;
+	left: 50%;
+    margin-left: -13px;
+    top: -12px;
+	width: 26px;
+	height: 12px;
+	background: url(/resources/images/service/agency/sbdl_03-4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.SocialSecurityAgency-advantage-section-text b{
+	font-size: 20px;
+	display: inline-block;
+	margin-top: 24px;
+	margin-bottom: 10px;
+	/*font-weight: normal;*/
+	color: #000000;
+}
+.SocialSecurityAgency-advantage-section-text p{
+	font-size: 15px;
+	color: #000000;
+	margin-bottom: 0;
+	text-align: center;
+}
+.SocialSecurityAgency-city{
+	padding-bottom: 50px;
+}
+.SocialSecurityAgency-city-box{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+.SocialSecurityAgency-city-box-section{
+	float: left;
+	width: 190px;
+	height: 230px;
+	margin-right: 12px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.SocialSecurityAgency-city-box-section-1{
+	width: 594px;
+	margin-right: 0;
+	background: #ffffff;
+}
+.SocialSecurityAgency-city-box-text{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: rgba(62,206,157,0.8);
+	text-align: center;
+	color: #ffffff;
+	-webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+    transition:.5s;
+    opacity: 0;
+}
+.SocialSecurityAgency-city-box-section:hover .SocialSecurityAgency-city-box-text{
+	opacity:1;
+}
+.SocialSecurityAgency-city-box-text b{
+	width: 100%;
+	margin-top: 90px;
+	margin-bottom: 35px;
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+}
+.SocialSecurityAgency-city-box-text p{
+	font-size: 15px
+}
+.SocialSecurityAgency-city-box-section-1{
+	padding: 25px;
+	padding-bottom: 0;
+}
+.SocialSecurityAgency-city-box-section-1 span{
+	font-size: 22px;
+	color: #3fcd9d;
+	display: inline-block;
+	margin-bottom: 10px;
+	/*font-weight: 600;*/
+}
+.SocialSecurityAgency-city-box-section-1 p{
+	margin-top:10px;
+	line-height: 22px;
+	color: #9a9a9a;
+	font-size: 15px;
+	text-align: justify;
+}
+.SocialSecurityAgency-partner{
+    background: url(/resources/images/service/agency/sbdl_05.jpg) no-repeat !important;
+    background-size: 100% 100%;
+    width: 100%;
+    padding-bottom: 0 !important;
+}
+
+
+.FullRiskOutsourcing-company-box{
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 1000px;
+}
+.FullRiskOutsourcing-company-section{
+	width: 320px;
+	height: 262px;
+	float: left;
+	margin:6px;
+	position: relative;
+	background: #ffffff;
+	border: 1px solid #ECECEC;
+}
+.FullRiskOutsourcing-company-section img{
+	display: inline-block;
+	margin-top: 57px;
+}
+.FullRiskOutsourcing-company-section p{
+	margin-top: 40px;
+	font-size: 19px;
+	color: #555555;
+	letter-spacing: 1px;
+}
+.FullRiskOutsourcing-company-section div{
+	display: none;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+    background: #3dcb9d;
+    padding: 75px 55px 0;
+    color: #ffffff;
+}
+.FullRiskOutsourcing-company-section div b{
+	font-size: 19px;
+	letter-spacing: 1px;	
+	font-weight: normal;
+	color: #ffffff;
+}
+.FullRiskOutsourcing-company-section div ul{
+	margin-top: 20px;
+	text-align: left;
+}
+.FullRiskOutsourcing-company-section div ul li{
+	list-style: initial;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-align: justify;
+	color: #ffffff;
+}
+.FullRiskOutsourcing-company-section i{
+	font-style: normal;
+	font-size: 19px;
+	color: #737373;
+	letter-spacing: 1px;	
+}
+.FullRiskOutsourcing-company-section button{
+	width: 173px;
+	height: 37px;
+	font-size: 18px;
+	margin-top: 46px;
+}
+.FullRiskOutsourcing-riskbox{
+	width: 1000px;
+	margin: 50px auto;
+}
+.FullRiskOutsourcing-riskul{
+	text-align: center;
+}
+.FullRiskOutsourcing-riskul ul{
+	overflow: hidden;
+	border-bottom:1px solid #f7992e;
+}
+.FullRiskOutsourcing-riskul ul li{
+	float: left;
+	font-size: 20px;
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: #ffffff;
+	letter-spacing: 4px;
+	cursor: pointer;
+}
+.FullRiskOutsourcing-riskul ul li.active{
+	background: #ffffff;
+	color: #f7992e;
+}
+.FullRiskOutsourcing-sectionbox{
+	background: #ffffff;
+	width: 100%;
+	height: 459px;
+}
+.FullRiskOutsourcing-section{
+	display: none;
+}
+.FullRiskOutsourcing-section ul{
+	width: 870px;
+	padding-top: 100px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.FullRiskOutsourcing-section ul li{
+	font-size: 18px;
+	float: left;
+	width: 90px;
+	height: 197px;
+	border-radius: 10px;
+	border: 1px solid #f4f4f4;
+	margin: 8px;
+	text-align: center;
+}
+.FullRiskOutsourcing-section ul li:first-child{
+	padding-left: 33px;
+	padding-top: 30px;
+	width: 106px;
+	box-shadow: 0px 0px 9px -1px #3dcb9d;
+	position: relative;
+}
+.FullRiskOutsourcing-section ul li:first-child:after{
+	content: '';
+	position: absolute;
+    right: -15px;
+    top: 79px;
+	width: 15px;
+	height: 25px;
+	background: url(../img/FullRiskOutsourcing/qfxwb_02-7-3.png) no-repeat;
+	background-size:100% 100% ;
+}
+.FullRiskOutsourcing-section ul li.hover{
+	padding-top: 51px;
+	letter-spacing: 3px;
+	color: #000000;
+}
+.FullRiskOutsourcing-section ul li.hover:hover{
+	box-shadow: 0px 0px 5px #3dcb9d !important;
+	border:1px solid rgba(61,203,157,.3);
+}
+.FullRiskOutsourcing-section ul li.hover:hover img{
+	display: block;
+}
+.FullRiskOutsourcing-section ul li span{
+	float: left;
+	width: 20px;
+	color: #3dcb9d;
+	margin-right: 5px;
+}
+.FullRiskOutsourcing-section ul li:first-child span:first-child{
+	margin-top: 10px;
+}
+.FullRiskOutsourcing-section ul li.hover{
+	position: relative;
+} 
+.FullRiskOutsourcing-section ul li.hover img{
+	width: 37px;
+	position: absolute;
+	bottom:20px;
+	left: 50%;
+	margin-left: -18.5px;
+	display: none;
+}
+.FullRiskOutsourcing-section-p{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 60px;
+	color: #3dcb9d;
+}
+.FullRiskOutsourcing-section1{
+	width: 955px;
+	margin: 0 auto;
+	padding-top: 32px;
+}
+.FullRiskOutsourcing-section1 ul{
+	height: 281px;
+}
+.FullRiskOutsourcing-section1 ul li{
+	width: 181px;
+	height: 281px;
+	float: left;
+	margin: 0 5px;
+	position: relative;
+}
+.FullRiskOutsourcing-section1 ul li section{
+	background: #3dcb9d;
+	text-align: center;
+	width: 181px;
+	height: 281px;
+	padding-top: 44px;
+}
+.FullRiskOutsourcing-section1 ul li section span{
+	display: block;
+	font-size: 18px;
+	color: #ffffff;
+	margin-top: 16px;
+	letter-spacing: 2px;
+}
+.FullRiskOutsourcing-section1 ul li:hover p{
+	display: block;
+}
+.FullRiskOutsourcing-section1 ul li p{
+	display: none;
+	font-size: 14px;
+	color: #666666;
+	position: absolute;
+	bottom: -123px;
+	left: -12px;
+	width: 205px;
+	height: 150px;
+	background: url(../img/FullRiskOutsourcing/qfxwb_02-7-4.png) no-repeat;
+	background-size:100% 100%;
+	padding: 33px 20px 0;
+	letter-spacing: 1px;
+}
+.FullRiskOutsourcing-partner{
+	background: url(../img/FullRiskOutsourcing/qfxwb_05.jpg) no-repeat !important;
+	background-size:100% 100% ;
+}
+.BusinessOutsource-add-box{
+	text-align: center;
+}
+.BusinessOutsource-step-box{
+	width: 930px;
+	margin: 60px auto 80px;
+	position: relative;
+}
+.BusinessOutsource-step-box b{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: normal;
+	position: absolute;
+	width: 70px;
+	text-align: center;
+	line-height: 18px;
+	letter-spacing: 1px;
+}
+.BusinessOutsource-step-box p{
+	color: #333;
+	font-size: 16px;
+	position: absolute;
+	width: 160px;
+	text-align: left;
+	line-height: 23px;
+	letter-spacing: 1px;
+	
+}
+.BusinessOutsource-step-box b.BusinessOutsource-step-b1{
+	color: #333;
+	left: 17px;
+	top: 203px;
+}
+.BusinessOutsource-step-box b.BusinessOutsource-step-b2{
+    left: 237px;
+    top: 63px;
+}
+.BusinessOutsource-step-box b.BusinessOutsource-step-b3{
+    left: 250px;
+    top: 252px;
+}
+.BusinessOutsource-step-box b.BusinessOutsource-step-b4{
+    left: 546px;
+    top: 57px;
+}
+.BusinessOutsource-step-box b.BusinessOutsource-step-b5{
+    left: 557px;
+    top: 245px;
+    font-size: 15px;  
+}
+.BusinessOutsource-step-box p.BusinessOutsource-step-p1{
+    left: 330px;
+    top: 27px;
+    width: 178px; 
+}
+.BusinessOutsource-step-box p.BusinessOutsource-step-p2{
+    left: 342px;
+    top: 220px;
+    width: 127px; 
+}
+.BusinessOutsource-step-box p.BusinessOutsource-step-p3{
+    left: 637px;
+    top: 27px; 
+}
+.BusinessOutsource-step-box p.BusinessOutsource-step-p4{
+    left: 650px;
+    top: 220px;
+}
+.LaborServiceCharges-step-box{
+	width: 916px;
+	height: 330px;
+	margin: 70px auto 40px;
+	text-align: center;
+	color: #333;
+	position: relative;
+}
+.LaborServiceCharges-step-box:before{
+	content: '';
+	position: absolute;	
+    left: -46px;
+    top: 116px;
+	width: 46px;
+	height: 11px;
+	background: url(/resources/images/service/labor/lwfdf_01_06.png) no-repeat;
+}
+.LaborServiceCharges-step-box:after{
+	position: absolute;
+	display: block;
+	content: '';
+    right: -46px;
+    top: 115px;
+	width: 46px;
+	height: 11px;
+	background: url(/resources/images/service/labor/lwfdf_01_07.png) no-repeat;
+}
+.LaborServiceCharges-step{
+	float: left;
+	width: 228px;
+	height: 330px;
+}
+.LaborServiceCharges-step-pbox{
+	height: 120px;
+	text-align: center;
+	
+}
+.LaborServiceCharges-step-p{
+	width: 175px;
+	height: 112px;
+	margin: 0 auto;
+	font-size: 15px;
+	color: #333;
+	background: url(/resources/images/service/labor/lwfdf_01_05_01.png);
+	background-size:100% 100%;
+	padding:17px 21px;
+	margin-bottom: 15px;
+	display: none;
+}
+.LaborServiceCharges-step-num{
+	width: 100%;
+	height: 120px;
+	background: url(/resources/images/service/labor/lwfdf_01_10.png);
+	background-size:100% 100%;
+	margin-bottom: 17px;
+}
+.LaborServiceCharges-step-num img{
+	margin: 15px auto;
+}
+.LaborServiceCharges-step-num span{
+	display: block;
+	font-size: 25px;
+	color: #ffffff;
+}
+.LaborServiceCharges-step a{
+	display: none;
+	margin-top: 40px;
+	color: #ff6666;
+	font-size: 16px;
+	padding:3px 15px 3px 39px;
+	background: url(/resources/images/service/labor/lwfdf_01_08_01.png);
+	background-size:100% 100%;
+}
+.LaborServiceCharges-step-num_1{
+	background: url(/resources/images/service/labor/lwfdf_01_12.png);
+	background-size: 100% 100%;
+}
+.LaborServiceCharges-step-num_1 img{
+	margin: 25px auto 15px;
+}
+.LaborServiceCharges-step-p_1{
+	background: url(/resources/images/service/labor/lwfdf_01_05_02.png);
+	background-size:100% 100%;
+	padding:22px;
+}
+.LaborServiceCharges-step-box>div.on .LaborServiceCharges-step-p{
+	display: block;
+}
+.LaborServiceCharges-step-box>div.on a{
+	display: inline-block;
+}
+.LaborServiceCharges-step-box>div.on .LaborServiceCharges-step-num{
+	background: url(/resources/images/service/labor/lwfdf_01_09.png);
+	background-size:100% 100%;
+}
+.LaborServiceCharges-step-box>div.on .LaborServiceCharges-step-num_1{
+	background: url(/resources/images/service/labor/lwfdf_01_11.png);
+	background-size:100% 100%;
+}
+.LaborServiceCharges-add-box{
+	width: 1000px;
+	margin: 70px auto 0;
+	text-align: center;
+}
+.LaborServiceCharges-add img{
+	margin-top: 35px;
+}
+.LaborServiceCharges-add{
+	width: 320px;
+	height: 340px;
+	display: inline-block;
+	background: #ffffff;
+	border-radius: 5px;
+	margin: 0 55px;
+}
+.LaborServiceCharges-add b{
+	display: block;
+	font-weight: normal;
+	color: #333;
+	font-size: 25px;
+	letter-spacing: 1px;
+	margin-top: 28px;
+	margin-bottom: 25px;
+}
+.LaborServiceCharges-add ul{
+	margin-top: 25px;
+	font-size: 17px;
+	color: #666;
+}
+.LaborServiceCharges-add ul li{
+	font-size: 16px;
+	color: #888888;
+	margin-bottom: 10px;
+}
+.compensation-partner ul li a img{
+    border: 1px solid #f4f4f4;
+    display: inline-block;
+}
+.compensation-form p i img{
+	display: inline-block;
+}
+.index-partnerimg p{
+	text-align: center;
+}
+.z1-hotservice-box_1 div{
+	float: left;
+	width: 280px;
+	height: 192px;
+	margin-right: 18px;
+	border: 1px solid #e5e5e5;
+	box-sizing:border-box;
+	text-align: center;
+}
+.z1-hotservice-box_1 div:last-child{
+	margin-right: 0;
+}
+.z1-hotservice-left{
+	float: left;
+}
+.z1-hotservice-right{
+	float: right;
+}
+.z1-hotservice-left,.z1-hotservice-right{
+	margin-top: 20px;
+	width: 50px;
+	height: 150px;
+	background: #f6f6f6;
+	text-align: center;
+	line-height: 150px;
+	cursor: pointer;
+}
+.z1-hotservice-left img,.z1-hotservice-right img{
+	display: inline-block;
+}
+.z1-hotservice{
+	width: 1000px;
+	margin: 40px auto 0;
+	text-align: center;
+}
+.z1-hotservice-box{
+	display: inline-block;
+	width: 876px;
+	overflow: hidden;
+}
+.z1-hotservice-box_1{
+	width: 2000px;
+}
+.z1-hotservice-box div img{
+	width: 100%;
+	float: left;
+}
+.z1-hotservice-box div p{
+	height: 73px;
+	padding: 16px;
+	font-size: 16px;
+	text-align: left;
+	color: #888888;
+}
+.bx-wrapper{
+	margin: 0 auto;
+	max-width: 1061px !important;
+}
+.slide{
+	width: 250px;
+	margin-right: 20px !important;
+	height: 100px;
+	box-sizing: border-box;
+    text-align: center;
+}
+.slide img{
+	width: 250px;
+}
+.slide p {
+    padding: 16px;
+    font-size: 16px;
+    text-align: left;
+    color: #818181;
+    letter-spacing: 1px;
+}
+.bx-pager{
+	display: none;
+}
+.bx-prev{
+	float: left;
+	margin-left: -68px;
+    margin-top: -66px;
+	width: 14px;
+    height: 24px;
+    cursor: pointer;
+    background: url(/resources/images/pc/routineimg/slide-prev.png) no-repeat;
+    background-size: 100% 100%;
+    color: rgba(0,0,0,0);
+	opacity: .6;
+}
+.bx-next{
+	float: right;
+	margin-right: -68px;
+    margin-top: -66px;
+	width: 14px;
+	height: 24px;
+    cursor: pointer;
+    background: url(/resources/images/pc/routineimg/slide-next.png) no-repeat;
+    background-size: 100% 100%;
+	color: rgba(0,0,0,0);
+	opacity: .6;
+}
+.bx-prev:hover,.bx-next:hover{
+	opacity: 1;
+}
+.PersonnelAgency-btn{
+	border: 1px solid #79b8ee;
+	color: #79b8ee;
+	background: none;
+}
+.PersonnelAgency-btn:hover{
+	background: #79b8ee;
+	color: #ffffff;
+	border: 1px solid #79b8ee;
+}
+.PersonnelAgency-btn_1{
+	border: 1px solid #ffffff;
+	background: #ffffff;
+}
+.PersonnelAgency-btn_1:hover{
+	border: 1px solid #79b8ee;
+}
+.LaborServiceCharges-btn{
+	border: 1px solid #5b8bde;
+	color: #5b8bde;
+	background: none;
+}
+.LaborServiceCharges-btn:hover{
+	background: #5b8bde;
+	color: #ffffff;
+	border: 1px solid #5b8bde;
+}
+.BusinessOutsource-banner{
+	height: 500px;
+	background: url(/resources/images/service/business/ywwb_banner.jpg) no-repeat center center;
+}
+.CompensationOptimization-banner{
+	height: 500px;
+	background: url(/resources/images/service/salary/xcyh_banner.jpg) no-repeat center center;
+}
+.EmployerLiabilityInsurance-banner{
+	height: 500px;
+	background: url(/resources/images/service/employer/gzzrx_banner.jpg) no-repeat center center;
+}
+.LaborServiceCharges-banner{
+	height: 500px;
+	background: url(/resources/images/service/labor/lwfdf_banner.jpg) no-repeat center center;
+}
+.PersonnelAgency-banner{
+	height: 500px;
+	background: url(/resources/images/service/agent/rswb_banner.jpg) no-repeat center center;
+}
+@media only screen and (max-width: 1400px) {
+	.BusinessOutsource-banner,.CompensationOptimization-banner,.EmployerLiabilityInsurance-banner,.LaborServiceCharges-banner,.PersonnelAgency-banner{
+		height: 415px;
+	}
+	.bx-wrapper{
+		margin: 0 auto;
+		max-width: 787px !important;
+	}
+}

@@ -1,0 +1,368 @@
+/* 社会化用工开始 */
+.se-box{
+    background:#4257D3;
+    width: 100%;
+    padding-bottom: 5rem;
+    overflow: hidden;
+}
+.se-count1{
+    width: 100%;
+    height: 28rem;
+    background: url("/resources/images/h5/service/social-employment/se-banner.png")center center no-repeat;
+    background-size: cover;
+}
+.se-count1 h3{
+	color: #FFFFFF;
+	font-size: 3.2rem;
+	font-weight: 500;
+	margin-top: 4.6rem;
+	text-align: center;
+}
+.se-count1 p{
+	color: #FFFFFF;
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin-top: 1.8rem;
+	text-align: center;
+}
+.se-count2{
+    width: 34.5rem;
+    height: 22rem;
+    margin: -7rem auto 0;
+    background-color: #FFFFFF;
+    box-shadow:0px 5px 10px 0px rgba(57,76,203,0.4);
+    border-radius:5px;
+}
+.se-count2-box{
+	width: 19rem;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 3.5rem;
+}
+.se-count2-box h3{
+	color: #101C94;
+	font-size: 1.8rem;
+	text-align: center;
+}
+.se-count2-box h4{
+	color: #077AEC;
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+.se-count2-descbox{
+	width: 100%;
+	height: 10.2rem;
+	position: relative;
+	padding-top: 2.4rem;
+}
+.se-count2-descbox img{
+	width: 1.2rem;
+	height: 6.6rem;
+	position: absolute;
+	top: 2.7rem;
+	left: 0;
+}
+.se-count2-descbox p{
+	color: #666666;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	margin-left: 2.1rem;
+	margin-bottom: 1.5rem;
+}
+.se-count2-descbox span{
+	font-weight: bold;
+}
+.se-count3{
+	width: 34.5rem;
+	height: 29rem;
+	background: url(/resources/images/h5/service/social-employment/se-count3-bg.png)center center no-repeat;
+	background-size: cover;
+	margin: 1.5rem auto 0;
+	padding-top: 12rem;
+}
+.se-count3 h3{
+	color: #101C94;
+	font-size: 1.8rem;
+	text-align: center;
+}
+.se-count3 p{
+	color: #077AEC;
+	font-size: 1.3rem;
+	line-height: 2.5rem;
+	width: 29.2rem;
+	margin: 2.7rem auto 0;
+}
+.se-btn1{
+	display: block;
+	width: 27.5rem;
+	height: 3.6rem;
+	background-color: #22BD7A;
+	color: #FFFFFF;
+	font-size: 1.4rem;
+	line-height: 3.6rem;
+	text-align: center;
+	margin: 3.6rem auto 0;
+	box-shadow:0px 5px 10px 0px rgba(57,76,203,0.4);
+	border-radius:18px;
+}
+.se-count4{
+	width: 34.5rem;
+	height: 56rem;
+	background-color: #FFFFFF;
+	box-shadow:0px 5px 10px 0px rgba(57,76,203,0.4);
+	border-radius:5px;
+	margin: 3.6rem auto 0;
+	padding-top: 3.2rem;
+}
+.se-count4>h3{
+	color: #101C94;
+	font-size: 1.8rem;
+	line-height: 2.5rem;
+	text-align: center;
+}
+.se-count4 h4{
+	color: #077AEC;
+	font-size: 1.2rem;
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 4.4rem;
+}
+.se-count4-child{
+	width: 30.7rem;
+	height: 13.3rem;
+	display: flex;
+	margin: 0 auto;
+}
+.se-count4-child img{
+	display: block;
+	width: 10rem;
+	height: 7.5rem;
+	float: left;
+}
+.se-count4-desc{
+	margin-left: 1.5rem;
+}
+.se-count4-desc h3{
+	color: #101C94;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+}
+.se-count4-desc p{
+	color: #666666;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	margin-top: 0.7rem;
+}
+.se-count5{
+	width: 34.5rem;
+	height: 26rem;
+	background-color: #EFF2FF;
+	border-radius:5px;
+	margin: 1.5rem auto 0;
+	padding-top: 3.5rem;
+}
+.se-count5 h3{
+	color: #101C94;
+	font-size: 1.8rem;
+	text-align: center;
+}
+.se-count5 img{
+	width: 34.5rem;
+	height: 14.1rem;
+	margin-top: 3rem;
+}
+.se-count6{
+	width: 34.5rem;
+	background-color: #FFFFFF;
+	height: 42.5rem;
+	margin: 1.5rem auto 0;
+	padding-top: 2.6rem;
+	box-shadow:0px 5px 10px 0px rgba(57,76,203,0.4);
+	border-radius:5px;
+}
+.se-count6 img{
+	display: block;
+	width: 29.2rem;
+	height: 20.3rem;
+	margin: 0 auto;
+}
+.se-count6 h3{
+	color: #101C94;
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+	text-align: center;
+	margin-top: 3rem;
+}
+.se-count6 p{
+	color: #333333;
+	font-size: 1.2rem;
+	line-height: 2.3rem;
+	width: 32rem;
+	margin: 3rem auto 0;
+}
+.se-count7{
+	width: 34.5rem;
+	height: 47.5rem;
+	box-shadow:0px 5px 10px 0px rgba(57,76,203,0.4);
+	border-radius:5px;
+	background-color: #FFFFFF;
+	margin: 3.6rem auto 0;
+	padding-top: 3rem;
+}
+.se-count7>h3{
+	color: #101C94;
+	font-size: 1.8rem;
+	text-align: center;
+}
+.se-count7-desc{
+	width: 31.3rem;
+	height: 33.7rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-between;
+	margin: 5.3rem auto 0;
+}
+.se-count7-child{
+	width: 15rem;
+	height: 15rem;
+	position: relative;
+	border:1px solid rgba(214,222,255,1);
+}
+.se-count7-child img{
+	width: 4rem;
+	height: 4rem;
+	position: absolute;
+	left: 5.5rem;
+	top: -2rem;
+}
+.se-count7-child h3{
+	color: #101C94;
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 3rem;
+}
+.se-count7-child p{
+	color: #666666;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	margin: 0.8rem auto 0;
+	width: 13.2rem;
+}
+.se-count8{
+	width: 34.5rem;
+	height: 120rem;
+	background:rgba(239,242,255,1);
+	border-radius:5px;
+	margin: 1.5rem auto 0;
+	padding-top: 3rem;
+}
+.se-count8 h3{
+	color: #101C94;
+	text-align: center;
+	font-size: 1.8rem;
+	margin-bottom: 3rem;
+}
+.se-count8-child1{
+	width: 31.5rem;
+	height: 27.1rem;
+	margin: 0 auto;
+}
+.se-count8-child1-img{
+	width: 31.5rem;
+	height: 6.5rem;
+	background: url(/resources/images/h5/service/social-employment/se-dshy.png)center center no-repeat;
+	background-size: cover;
+	padding-left: 1rem;
+	border-radius:5px;
+	margin: 0 auto;
+}
+.se-count8 h4{
+	background-size: cover;
+	color: #FFFFFF;
+	font-size: 1.5rem;
+	line-height: 6.5rem;
+}
+.se-count8 p{
+	color: #666666;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	margin-top: 2rem;
+	letter-spacing: -0.04rem;
+}
+.se-count8 span{
+	color: #000000;
+}
+.se-count8-child2{
+	width: 31.5rem;
+	height: 27.3rem;
+	margin: 0 auto;
+}
+.se-count8-child2-img{
+	width: 31.5rem;
+	height: 6.5rem;
+	background: url(/resources/images/h5/service/social-employment/se-zxjjhy.png)center center no-repeat;
+	background-size: cover;
+	padding-left: 1rem;
+	border-radius:5px;
+	margin: 0 auto;
+}
+.se-count8-child3{
+	width: 31.5rem;
+	height: 29.7rem;
+	margin: 0 auto;
+}
+.se-count8-child3-img{
+	width: 31.5rem;
+	height: 6.5rem;
+	background: url(/resources/images/h5/service/social-employment/se-hlwjrhy.png)center center no-repeat;
+	background-size: cover;
+	padding-left: 1rem;
+	border-radius:5px;
+	margin: 0 auto;
+}
+.se-count8-child4{
+	width: 31.5rem;
+	height: 27.3rem;
+	margin: 0 auto;
+}
+.se-count8-child4-img{
+	width: 31.5rem;
+	height: 6.5rem;
+	background: url(/resources/images/h5/service/social-employment/se-jypxhy.png)center center no-repeat;
+	background-size: cover;
+	padding-left: 1rem;
+	border-radius:5px;
+	margin: 0 auto;
+}
+.se-count9{
+    width: 35.5rem;
+    height: 30.2rem;
+    margin: 3.6rem auto 0;
+    background-color: #FFFFFF;
+    box-shadow:0 0.2rem 1rem 0 rgba(0,0,0,0.14);
+    border-radius:10px;
+    padding-top: 3.6rem;
+    padding-bottom: 3.6rem;
+}
+.se-count9 h3{
+    color: #101C94;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+.se-count9 a{
+    display: block;
+    width: 16.5rem;
+    height: 3.6rem;
+    background-color: #22BD7A;
+    margin: 2.4rem auto 0;
+    box-shadow:0 0.2rem 0.8rem 0 rgba(188,224,209,1);
+    border-radius:20px;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    line-height: 3.6rem;
+    text-align: center;
+}
+/* 社会化用工结束 */

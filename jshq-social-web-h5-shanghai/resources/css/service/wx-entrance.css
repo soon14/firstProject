@@ -1,0 +1,299 @@
+/*微信入口页面*/
+.wx-entrance-top{
+	width:1200px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	height:100px;
+	align-items: center;
+}
+.wx-entrance-top .left{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.wx-entrance-top .left .wx-qqxb-logo{
+	padding-right:20px;
+}
+.wx-entrance-top .left p{
+	height:40px;
+	border-left:1px solid #d5d5d5;
+	display: flex;
+	align-items: center;
+	padding-left:20px;
+}
+.wx-entrance-top .gotowx-free-btn{
+	width:130px;
+	height:40px;
+	background:#0085dc;
+	color:#fff;
+	text-align: center;
+	line-height:40px;
+	font-size:16px;
+	border-radius:4px;
+}
+.wx-entrance-banner-box{
+	width:100%;
+	background:#0085dc;
+	display: flex;
+	justify-content: center;
+}
+.wx-entrance-main1{
+	width:1200px;
+	margin:0 auto;
+	padding-top:70px;
+	padding-bottom:92px;
+}
+.wx-entrance-main-h1{
+	text-align: center;
+	line-height:49px;
+	font-size:28px;
+	font-weight: 300;
+}
+.wx-entrance-main-h2{
+	line-height:40px;
+	font-size:18px;
+	font-weight: 300;
+	color:#999;
+	text-align: center;
+}
+.wx-entrance-main1 .wx-items-dl{
+	display: flex;
+	padding-top:49px;
+	justify-content: space-between;
+}
+.wx-entrance-main1 .wx-items-dl dl{
+	text-align: center;
+	width:33.3%
+}
+.wx-entrance-main1 .wx-items-dl dl dt{
+	padding-bottom:13px;
+}
+.wx-entrance-main1 .wx-items-dl dl dt img{
+	display: inline-block;
+}
+.wx-entrance-main1 .wx-items-dl dl dd h3{
+	font-size:21px;
+	line-height:65px;
+}
+.wx-entrance-main1 .wx-items-dl dl dd p{
+	line-height:30px;
+	font-size:14px;
+	color:#666;
+}
+.wx-entrance-main2{
+	background:#f8f8f8;
+	padding-top:70px;
+	height:1022px;
+}
+.wx-entrance-main2 .wx-entrance-swiper-nav-box{
+	padding-top:40px;
+	display: flex;
+	justify-content: center;
+}
+.wx-entrance-main2 .wx-entrance-swiper-nav{	
+	width:260px;
+	display: flex;
+	justify-content: center;
+	border:1px solid #0085dc;
+	border-radius: 4px;
+}
+.wx-entrance-main2 .wx-entrance-swiper-nav p{
+	width:50%;
+	line-height:40px;
+	text-align: center;
+	color:#0085dc;
+	cursor: pointer;
+	font-size:16px;
+}
+.wx-entrance-main2 .wx-entrance-swiper-nav p.active{
+	background:#0085dc;
+	color:#fff;
+}
+.wx-entrance-swiper-box{
+	width:1200px;
+	margin:0 auto;
+	padding-top:107px;
+}
+.wx-entrance-swiper2{
+	width:900px;
+	background:url(/resources/images/service/entrance/CTDN.png) no-repeat;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	padding-top:35px;
+	padding-left:3px;
+}
+.wx-entrance-swiper2 .swiper-container2{
+	width:670px;
+	height:639px;
+}
+.wx-entrance-swiper2 .swiper-wrapper{
+	height:420px;
+}
+.wx-entrance-swiper2 .swiper-container2 img{
+	width:100%;
+}
+.wx-entrance-swiper2 .swiper-pagination{
+	bottom:65px;
+}
+.wx-entrance-swiper2 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	width:25px;
+	height:5px;
+	border-radius: 0;
+	cursor: pointer;
+}
+/*员工轮播图*/
+.wx-entrance-swiper1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top:-37px;
+}
+.wx-entrance-swiper1 .item{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	background:url(/resources/images/service/entrance/CTSJ.png) no-repeat;
+	background-size:100% 100%;
+}
+.wx-entrance-swiper1 .item-b{
+	width:299px;
+	height:630px;		
+	padding-top:72px;
+	margin:0 50px;
+}
+.wx-entrance-swiper1 .item-s{
+	width:240px;
+	height:504px;
+	padding-top:56px;
+	
+}
+.wx-entrance-swiper1 .item-s img{
+	width:215px;
+}
+.wx-entrance-main3{
+	width:1200px;
+	margin:0 auto;
+    padding-top: 70px;
+}
+.wx-entrance-main3 .wx-entrance-tools{
+	padding-top:65px;
+}
+.wx-entrance-main3 .wx-entrance-tools-dl{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom:16px;
+}
+.wx-entrance-main3 .wx-entrance-tools-dl dl{
+	width:23%;
+	text-align: center;
+	padding-bottom:64px;
+}
+.wx-entrance-main3 .wx-entrance-tools-dl dl img{
+	display: inline-block;
+}
+.wx-entrance-main3 .wx-entrance-tools-dl dl dd{
+	line-height:47px;
+	font-size:17px;
+}
+.wx-entrance-main3 .wx-entrance-tools-bottom{
+	height:260px;
+	width:960px;
+	margin:0 auto;
+	padding-top:50px;
+}
+.wx-entrance-main3 .wx-entrance-tools-bottom h1{
+	font-size:34px;
+	font-weight: 300;
+	color:#666;
+	line-height:93px;
+	text-align: center;
+}
+.wx-entrance-main3 .wx-entrance-tools-bottom a{
+	margin:0 auto;
+	display: block;
+	width:130px;
+	height:40px;
+	background:#0085dc;
+	color:#fff;
+	text-align: center;
+	line-height:40px;
+	font-size:16px;
+	border-radius:4px;
+}
+.wx-shadow{
+	position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:rgba(00,00,00,0.3);
+	z-index: 100;
+}
+.wx-pop-box{
+	width:920px;
+	position: fixed;
+	left:50%;
+	margin-left:-460px;
+	top:100px;
+	z-index: 101;
+	background:#fff;
+}
+.wx-pop-box .wx-pop-top{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:100px;
+}
+.wx-pop-box .wx-pop-top h1{
+	font-size:22px;
+}
+.wx-pop-box .wx-pop-top img{
+	position: absolute;
+	top:19px;
+	right:20px;
+	cursor: pointer;
+}
+.wx-pop-box .wx-pop-btn{
+	height:300px;
+	background:url(../img/wx-entrance/TCditu.png) no-repeat;
+	display: flex;
+	justify-content: center;
+}
+.wx-pop-box .wx-pop-btn .items{
+	width:100%;
+	padding-top:194px;
+	display: flex;
+	justify-content: center;
+}
+.wx-pop-box .wx-pop-btn .items a{
+    width: 130px;
+    height: 40px;
+    background: #22bd7a;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.wx-pop-box .wx-pop-btn .items:last-child a{
+	background: #0085dc;
+}
+.wx-pop-box .wx-pop-bottom{
+	padding:17px 0 58px 60px;
+}
+.wx-pop-box .wx-pop-bottom .items{
+	padding-top:32px;
+}
+.wx-pop-box .wx-pop-bottom .items h2{
+	line-height:40px;
+	font-size:20px;
+}
+.wx-pop-box .wx-pop-bottom .items p{
+	font-size:14px;
+	line-height:36px;
+	color:#666;
+}

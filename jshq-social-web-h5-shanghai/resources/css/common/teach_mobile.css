@@ -1,0 +1,78 @@
+.mescroll{
+    background: url("/resources/images/common/teach_bg.png") center center;
+}
+.teach-content{
+    padding: 0 2rem;
+}
+.teach-main{
+    width: 100%;
+    height: 3.5rem;
+    position: relative;
+    margin-top: 1.7rem;
+}
+.teach-main .teach-bg{
+    width: 27rem;
+    height: 1.8rem;
+    position: absolute;
+    bottom: 0;
+}
+.teach-tips{
+    width: 3.6rem;
+    height: 1.7rem;
+    display: inline-block;
+}
+.teach-securith-title{
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    color: #222;
+}
+.teach-text-box{
+    padding: 2rem 0;
+    position: relative;
+    margin-top: 1.2rem;
+}
+.welcome{
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    color: #222;
+}
+.welcome span{
+    color:#22bd7a ;
+}
+.service{
+    text-align: center;
+    margin-top: 0.7rem;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    color: #666;
+}
+.lefttop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.5rem;
+    height: 2.3rem;
+}
+.rightbottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 2.5rem;
+    height: 2.3rem;
+}
+.crcode{
+    margin-top: 0.7rem;
+    text-align: center;
+}
+.crcode img{
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+}
+.crcode span{
+    margin-top:1.3rem;
+    line-height: 3.7rem;
+    font-size: 1.5rem;
+    color: #666;
+}

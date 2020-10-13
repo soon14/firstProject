@@ -1,0 +1,125 @@
+.teach-main{
+    width: 100%;
+    height: 100%;
+    background:url("/resources/images/pc/teach/bg.png") repeat;
+}
+.teach-securith-main{
+    width: 1200px;
+    padding-top: 65px;
+    margin: 0 auto;
+}
+.teach-securith-main .teach-title{
+    position: relative;
+    font-size: 30px;
+    line-height: 40px;
+    color: #393939;
+    width: 425px;
+    height: 45px;
+    background-size: 100% 100%;
+    background:url("/resources/images/pc/teach/title_bg.png") no-repeat left bottom;
+}
+.teach-securith-main .teach-title img{
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right:-8px;
+}
+.teach-securith-main video{
+    margin-top: 30px;
+}
+.teach-securith-main .textbox{
+    padding-bottom: 110px;
+    margin-top: 75px;
+    overflow: hidden;
+}
+.teach-securith-main .welcome-text{
+    position: relative;
+    float: left;
+    padding: 30px 40px 30px 65px;
+    box-sizing: border-box;
+    width: 645px;
+}
+.teach-securith-main .welcome{
+    text-align: left;
+    font-size: 24px;
+    line-height: 30px;
+    color: #222;
+}
+.teach-securith-main .welcome span{
+    color:#22bd7a ;
+}
+.teach-securith-main .service{
+    text-align: right;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #666;
+}
+.teach-securith-main .lefttop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+}
+.teach-securith-main .rightbottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+}
+.teach-securith-main .download-code{
+    float: left;
+	margin-left: 200px;
+}
+.teach-securith-main .download-code img{
+	width: 200px;
+    margin: 0 auto;
+}
+.teach-securith-main .download-code p{
+    margin-top:10px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #666;
+	text-align: center;
+}
+@media (max-width: 1400px){
+    .teach-securith-main{
+        width: 1000px;
+        padding-top: 55px;
+        margin: 0 auto;
+        background:url("/resources/images/pc/teach/bg.png") no-repeat center center;
+    }
+    .teach-securith-main .textbox{
+        padding-bottom: 100px;
+        margin-top: 70px;
+        overflow: hidden;
+    }
+    .teach-securith-main .welcome-text{
+        position: relative;
+        float: left;
+        padding: 25px 35px 25px 60px;
+        box-sizing: border-box;
+        width: 600px;
+    }
+    .teach-securith-main .welcome{
+        text-align: left;
+        font-size: 22px;
+        line-height: 28px;
+        color: #222;
+    }
+    .teach-securith-main .welcome span{
+        color:#22bd7a ;
+    }
+    .teach-securith-main .service{
+        text-align: right;
+        margin-top: 18px;
+        font-size: 22px;
+        line-height: 28px;
+        color: #666;
+    }
+
+
+}

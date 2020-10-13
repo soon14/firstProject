@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.autocomplete-box {
+	/*position: absolute;*/
+	z-index: 9999;
+}
+
+.autocomplete-box-default {
+	height: 200px;
+	width: 210px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	overflow-y: auto;
+}
+
+.autocomplete {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.autocomplete-item {
+	cursor: pointer;
+	line-height: 35px;
+	height: 35px;
+	padding: 0 10px;
+	font-size: 13px;
+}
+
+.autocomplete-item-active, .autocomplete-item:hover {
+	background-color: #eee;
+}

@@ -1,0 +1,356 @@
+/* 通用顶部导航 */
+.sh-index-ty-nav{
+	width: 100%;
+	height: 4.4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 2;
+}
+.sh-index-ty-btn{
+	width: 2rem;
+	height: 2rem;
+	margin-left: 1.5rem;
+}
+.sh-index-ty-btn img{
+	display: block;
+	width: 2rem;
+	height: 2rem;
+}
+.sh-index-ty-logo{
+	width: 14.5rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.sh-index-ty-logo a{
+	padding-top: 0.4rem;
+}
+.sh-index-ty-logo a>img{
+	width: 8.7rem;
+	height: 2.4rem;
+}
+.sh-index-ty-lxkf{
+	width: 2rem;
+	height: 2rem;
+	margin-right: 1.5rem;
+}
+.sh-index-ty-lxkf>img{
+	display: block;
+	width: 2rem;
+	height: 2rem;
+}
+.sh-nav-change{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sh-nav-change span{
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 20px;
+}
+.sh-nav-change img{
+	width: 1.3rem;
+	height: 0.8rem;
+}
+.sh-nav-change-qg{
+	display: none;
+	position: absolute;
+	right: -2rem;
+	top: 4rem;
+	background-color: #ffffff;
+	width: 8rem;
+	box-shadow: 0px 2px 16px 0px rgba(15, 13, 13, 0.44), 0px 1px 2px 0px rgba(0, 0, 0, 0.43);
+}
+.sh-nav-change-qg a{
+	display: block;
+	width: 100%;
+	height: 3rem;
+	text-align: center;
+	color: #666666;
+	font-size: 1.4rem;
+	line-height: 2rem;
+}
+/* 通用顶部导航 */
+.sh-fengexian{
+	width: 100%;
+	background-color: #F5FAF7;
+	height: 1rem;
+}
+.sh-company-banner-box{
+	width: 100%;
+	height: 18rem;
+	background-image: url(../../images/sh/company/sh-company-banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.sh-company-banner-desc{
+	margin-top: 4.3rem;
+	width: 100%;
+}
+.sh-company-banner-desc h3{
+	color: #FFFFFF;
+	font-size: 2rem;
+	line-height: 2.8rem;
+	text-align: center;
+	font-weight: 600;
+}
+.sh-company-banner-desc h3>span{
+	color: #FFD117;
+}
+.sh-company-count1{
+	width: 100%;
+	height: 48.7rem;
+	padding-top: 3rem;
+}
+.sh-company-count1-desc{
+	width: 34.5rem;
+	height: 42.7rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-between;
+	margin: 0 auto;
+}
+.sh-company-count1-child{
+	width: 16.5rem;
+	height: 20.6rem;
+	background: #ffffff;
+	border-radius: 4px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.08); 
+}
+.sh-company-count1-child-top{
+	width: 100%;
+	height: 5.4rem;
+	background-image: url(../../images/sh/company/sh-company-count1-top.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sh-company-count1-child-top img{
+	width: 2rem;
+	height: 2rem;
+	margin-right: 1rem;
+}
+.sh-company-count1-child-top p{
+	color: #FFFFFF;
+	font-size: 1.6rem;
+	line-height: 2.2rem;
+	font-weight: 500;
+}
+.sh-company-count1-child-mid{
+	width: 100%;
+	height: 10.2rem;
+	padding-top: 1.7rem;
+}
+.sh-company-count1-child-mid p{
+	color: #3D4047;
+	font-size: 1.4rem;
+	line-height: 2.2rem;
+	text-align: center;
+}
+.sh-company-count1-child a{
+	display: block;
+	width: 8.8rem;
+	height: 3.2rem;
+	background-color: #077aec;
+	border-radius: 1.6rem;
+	color: #FFFFFF;
+	font-size: 1.4rem;
+	line-height: 3.2rem;
+	text-align: center;
+	margin: 0 auto;
+}
+.sh-company-count2{
+	width: 100%;
+	height: 36.8rem;
+	padding-top: 3rem;
+}
+.sh-company-count2 h3{
+	color: #3D4047;
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+	font-weight: 500;
+	text-align: center;
+}
+.sh-company-count2 h3>span{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.sh-company-count2-desc{
+	width: 34.5rem;
+	height: 25.4rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-between;
+	margin: 3rem auto 0;
+}
+.sh-company-count2-child{
+	width: 16.5rem;
+	height: 11.2rem;
+}
+.sh-company-count2-child img{
+	width: 4.4rem;
+	height: 4.4rem;
+	display: block;
+	margin: 0 auto;
+}
+.sh-company-count2-child h3{
+	color: #3D4047;
+	font-size: 1.6rem;
+	line-height: 2.2rem;
+	text-align: center;
+	margin-top: 0.8rem;
+}
+.sh-company-count2-child p{
+	color: #95989E;
+	font-size: 1.3rem;
+	line-height: 1.7rem;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 0.4rem;
+}
+
+.sh-company-count3{
+	width: 100%;
+	height: 35rem;
+	padding-top: 3rem;
+}
+.sh-company-count3 h3{
+	color: #3D4047;
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+	font-weight: 500;
+	text-align: center;
+}
+.sh-company-count3 h4{
+	color: #95989E;
+	font-size: 1.3rem;
+	line-height: 1.8rem;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 0.6rem;
+	margin-bottom: 1.3rem;
+}
+.sh-company-count3-desc{
+	width: 36rem;
+	height: 8rem;
+	display: flex;
+	justify-content: space-between;
+	margin: 0.9rem auto 0;
+}
+.sh-company-count3-child{
+	width: 9rem;
+	height: 8rem;
+}
+.sh-company-count3-child img{
+	display: block;
+	width: 5.9rem;
+	height: 5.9rem;
+	margin: 0 auto;
+}
+.sh-company-count3-child p{
+	color: #3D4047;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	text-align: center;
+}
+.sh-company-count3-abox{
+	width: 100%;
+	height: 3.2rem;
+	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
+}
+.count3-a-zx{
+	display: block;
+	width: 12rem;
+	height: 3.2rem;
+	background: #faad14;
+	border-radius: 1.6rem;
+	color: #FFFFFF;
+	font-size: 1.4rem;
+	line-height: 3.2rem;
+	font-weight: 400;
+	text-align: center;
+	margin-right: 1.6rem;
+}
+.count3-a-more{
+	display: block;
+	width: 12rem;
+	height: 3.2rem;
+	background: #077aec;
+	border-radius: 1.6rem;
+	color: #FFFFFF;
+	font-size: 1.4rem;
+	line-height: 3.2rem;
+	font-weight: 400;
+	text-align: center;
+}
+.sh-company-count4{
+	width: 100%;
+	height: 32rem;
+	background-image: url(../../images/sh/company/sh-company-count4-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 9rem;
+	margin-top: 2.4rem;
+	margin-bottom: 2.1rem;
+}
+.sh-company-count4 h3{
+	color: #FFFFFF;
+	font-size: 1.8rem;
+	line-height: 2.6rem;
+	font-weight: 500;
+	text-align: center;
+}
+.sh-company-count4 p{
+	color: #FFFFFF;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	text-align: center;
+	font-weight: 400;
+	margin-top: 1.2rem;
+}
+.sh-company-count4 p>span{
+	margin-left: 0.3rem;
+	margin-right: 0.3rem;
+}
+.sh-company-count4-abox{
+	width: 100%;
+	height: 3.2rem;
+	margin-top: 3rem;
+	display: flex;
+	justify-content: center;
+}
+.count4-zx{
+	width: 12rem;
+	height: 3.2rem;
+	border-radius: 1.6rem;
+	background-color: #FAAD14;
+	color: #FFFFFF;
+	font-size: 1.4rem;
+	line-height: 3.2rem;
+	text-align: center;
+	font-weight: 400;
+	margin-right: 2rem;
+}
+.count4-xz{
+	width: 3.2rem;
+	height: 3.2rem;
+	background-image: url(../../images/sh/company/sh-company-count4-xz.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+} 
+
+.sh-company-count5{
+	width: 100%;
+	height: 39.6rem;
+}

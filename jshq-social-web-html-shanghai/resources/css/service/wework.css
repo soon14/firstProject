@@ -1,0 +1,244 @@
+.ww-top{
+	width: 100%;
+	height: 100px;
+}
+.ww-top-count{
+	width: 1200px;
+	height: 100%;
+	display: flex;
+	margin: 0 auto;
+}
+.ww-top-img1{
+	width: 200px;
+	height: 58px;
+	margin-top: 22px;
+}
+.ww-top-count div{
+	width: 1px;
+	height: 40px;
+	margin-top: 30px;
+	background-color: #EBEBEB;
+	margin-left: 19px;
+	margin-right: 19px;
+}
+.ww-top-img2{
+	width: 161px;
+	height: 31px;
+	margin-top: 33px;
+}
+.ww-top-count a{
+	width: 130px;
+	height: 40px;
+	background-color: #0085DC;
+	border-radius: 4px;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 31px;
+	margin-left: 670px;
+}
+.ww-banner{
+	width: 100%;
+	height: 500px;
+	background: url(/resources/images/wework/banner.png) center center no-repeat;
+	background-size: cover;
+	max-width: 2000px;
+	margin: 0 auto;
+}
+.ww-count1{
+	width: 100%;
+	height: 780px;
+	padding-top: 90px;
+}
+.ww-count1-h31{
+	color: #333333;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+}
+.ww-count1-desc{
+	width: 1063px;
+	height: 438px;
+	margin: 27px auto 0;
+	padding-left: 32px;
+}
+.ww-count1-desc1{
+	width: 200px;
+	height: 100%;
+	padding-top: 62px;
+	float: left;
+	margin-right: 60px;
+}
+.ww-count1-desc1 img{
+	width: 200px;
+	height: 130px;
+}
+.ww-count1-desc1 h3{
+	font-size: 20px;
+	color: #333333;
+	margin-top: 25px;
+	text-align: center;
+}
+.ww-count1-desc1 p{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+	margin-top: 20px;
+}
+
+.ww-count1-a{
+	display: block;
+	width: 280px;
+	height: 50px;
+	border-radius: 6px;
+	background-color: #0085DC;
+	margin: 45px auto 0;
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 50px;
+	text-align: center;
+}
+.ww-count2{
+	width: 100%;
+	height: 1056px;
+	background-color: #F8F8F8;
+	padding-top: 60px;
+}
+.ww-count2-h31{
+	font-size: 30px;
+	color: #333333;
+	text-align: center;
+	line-height: 48px;
+	font-weight: 400;
+}
+.ww-count2-h41{
+	font-size: 24px;
+	line-height: 48px;
+	text-align: center;
+	color: #666666;
+}
+.ww-count2-desc{
+	width: 980px;
+	height: 210px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.ww-count2-desc-child{
+	width: 200px;
+	height: 100%;
+}
+.count2-desc-child-top{
+	width: 100%;
+	height: 30px;
+}
+.count2-desc-child-top img{
+	display: block;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 8px;
+}
+.count2-desc-child-top h3{
+	font-size: 16px;
+	color: #333333;
+	line-height: 30px;
+}
+.ww-count2-desc-child p{
+	margin-top: 15px;
+	font-size: 14px;
+	color: #5b5b5b;
+	line-height: 24px;
+}
+.ww-count3{
+	width: 100%;
+	height: 575px;
+	padding-top: 100px;
+}
+.ww-count3 a{
+	display: block;
+	width: 280px;
+	height: 50px;
+	border-radius: 6px;
+	background-color: #0085DC;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+}
+.ww-count3-ewm{
+	width: 960px;
+	height: 220px;
+	margin: 100px auto 0;
+	background: url(/resources/images/wework/mfjszc.png)center center no-repeat;
+	background-size: cover;
+	padding-top: 40px;
+}
+.ww-count3-ewm img{
+	width: 140px;
+	height: 140px;
+	margin: 0 auto;
+}
+.ww-pop-box{
+	width: 860px;
+	height: 740px;
+	background: url(/resources/images/wework/pop-bg.png)center center no-repeat;
+	position: fixed;
+	left:50%;
+	margin-left:-430px;
+	top:50%;
+	margin-top: -370px;
+	-webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
+}
+.ww-pop-box h3{
+	color: #000000;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	margin-top: 45px;
+}
+.ww-pop-box p{
+	color: #333333;
+	font-size: 18px;
+	line-height: 40px;
+	margin: 50px auto 0;
+	width: 690px;
+}
+.ww-pop-ewm{
+	width: 100%;
+	height: 220px;
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-around;
+}
+.ww-pop-ewm img{
+	width: 140px;
+	height: 140px;
+	margin: 0 auto;
+}
+.ww-pop-ewm div{
+	width: 200px;
+	height: 220px;
+}
+.ww-pop-ewm span{
+	display: block;
+	margin: 20px auto 0;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+.ww-pop-box a{
+	display: block;
+	width: 130px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: #0085DC;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+	margin: 40px auto 0;
+}

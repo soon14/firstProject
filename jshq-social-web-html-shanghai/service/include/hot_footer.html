@@ -1,0 +1,80 @@
+<h3 class="index-h1title-new" >热门服务</h3>
+<div style="text-align: center;margin-top: 50px;">
+	<div class="slider3">
+		<div class="slide">
+			<a href="/service/personal-agent.html">
+				<img src="/resources/images/pc/routineimg/logo-rsdl.png" title="人事代理" alt="人事代理" />
+			</a>
+		</div>
+		<div class="slide">
+			<a href="/service/flexible-employment.html">
+				<img src="/resources/images/pc/routineimg/logo-lhyg.png" title="灵活用工" alt="灵活用工" />
+			</a>
+		</div>
+		<div class="slide">
+			<a href="/service/other-company-service.html">
+				<img src="/resources/images/pc/routineimg/logo-qtqy.png" title="其他服务" alt="其他服务" />
+			</a>
+		</div>
+		<div class="slide">
+			<a href="/service/commercial-insurance.html">
+				<img src="/resources/images/pc/routineimg/logo-flbx.png" title="福利保险" alt="福利保险" />
+			</a>
+		</div>
+		<div class="slide">
+			<a href="/service/resources-outsourcing.html">
+				<img src="/resources/images/pc/routineimg/logo-rlzywb.png" title="人力资源外包" alt="人力资源外包" />
+			</a>
+		</div>
+		<!-- <div class="slide">
+			<a href="/service/tianjin-settled.html">
+				<img src="/resources/images/pc/routineimg/logo-tjlh.png" title="人力资源外包" alt="人力资源外包" />
+			</a>
+		</div> -->
+	</div>
+</div>
+<style>
+	.index-partnerimg {
+		justify-content: flex-start;
+	}
+	.index-hzhbbox{
+		padding-top: 0;
+		padding-bottom: 80px;
+	}
+</style>
+<script type="text/javascript" src="/resources/js/util/doT.min.js"></script>
+<script>
+    $(function () {
+        $.ajax({ //加载我们的客户
+            url: "/link/customerList",
+            dataType: "json",
+            success: function (res) {
+                let customerLinkedTemplate = doT.template($("#customer_content").html());
+                let page = customerLinkedTemplate(res.data);
+                $("#customerBox").html(page);
+            },
+            error: function () {
+            }
+        });
+        $.ajax({ //加载合作伙伴
+            url: "/link/partnersList",
+            dataType: "json",
+            success: function (res) {
+                let partnersLinkedTemplate = doT.template($("#partners_content").html());
+                let page = partnersLinkedTemplate(res.data);
+                $("#partnerBox").html(page);
+            },
+            error: function () {
+            }
+        });
+    });
+    $(document).ready(function() {
+        $('.slider3').bxSlider({
+            slideWidth: 250,
+            minSlides: 2,
+            maxSlides: 4,
+            moveSlides: 1,
+            slideMargin: 20
+        });
+    });
+</script>
